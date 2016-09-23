@@ -13,44 +13,39 @@ h1 {
 }
 
 h2 {
-  text-align: center;
-  padding: 10px 0px 10px 0px;
-  margin: 0;
+  text-align: left;
   font-size: 250%;
-
-}
-
-section > p {
-  text-align: center;
-}
-
-img {
-  display: block;
-  margin: auto;
+  margin: 20px;
 }
 
 #cougar {
   background: #FFD5AE;
   color: #000;
   clear: both;
+  overflow: auto;
+  width: 100%;
 }
 
 #lion {
   background: #FFBD82;
   color: #000;
+  overflow: auto;
+  width: 100%;
 }
 
 #tiger {
   background: #B26219;
   color: #000;
+  overflow: auto;
+  width: 100%;
 }
 
 article {
   width: 600px;
-  background: #fff;
   margin: auto;
   padding: 20px;
   box-sizing: border-box;
+  float: right;
 }
 
 footer {
@@ -64,6 +59,12 @@ header {
   padding: 0px 0px 10px 50px;
   margin: 0;
 }
+
+div {
+  float: left;
+  padding: 0px 0px 0px 30px;
+}
+
 
 
 /* ----- suggested colors -----
